@@ -1,0 +1,201 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.central-ajuda {
+  text-decoration: none;
+  color: #0070c9;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destaque-produto {
+  flex-basis: 45%;
+}
+
+.destaque-produto h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destaque-produto img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.destaque-produto .descricao-produto {
+  margin-top: 10px;
+}
+
+.destaque-produto .descricao-produto h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.destaque-produto .descricao-produto p {
+  margin-bottom: 10px;
+}
+
+.destaque-produto .preco {
+  font-size: 20px;
+  color: #0070c9;
+}
+
+.pagamento {
+  flex-basis: 25%;
+}
+
+.pagamento h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pagamento form {
+  display: flex;
+  flex-direction: column;
+}
+
+.metodos-pagamento {
+  margin-bottom: 20px;
+}
+
+.metodos-pagamento h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.metodo-pagamento {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.metodo-pagamento img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.metodo-pagamento span {
+  font-size: 18px;
+}
+
+.metodo-pagamento:hover {
+  background-color: #f0f0f0;
+}
+
+.informacoes-pagamento {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.endereco-entrega,
+.dados-cartao {
+  flex-basis: 48%;
+}
+
+.endereco-entrega h3,
+.dados-cartao h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.campo input[type="text"],
+.campo input[type="date"],
+.campo textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.campo textarea {
+  height: 80px;
+}
+
+button[type="submit"] {
+  background-color: #0070c9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005ea2;
+}
+
+footer {
+  background-color: #f8f8f8;
+  color: #666;
+  text-align: center;
+  padding: 10px 0;
+}

@@ -1,0 +1,180 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+#phone-display {
+  margin-bottom: 20px;
+
+}
+
+#phone-image {
+  width: 300px; /* Definindo a largura da imagem em pixels */
+  height: auto;
+  border-radius: 10px; /* Adicionando bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra suave */
+  transition: transform 0.3s ease; /* Adicionando uma transição suave */
+}
+
+#phone-image:hover {
+  transform: scale(1.05); /* Aumentando ligeiramente o tamanho da imagem ao passar o mouse */
+}
+
+
+#color-options {
+  text-align: center;
+}
+
+.color-buttons {
+  margin-top: 10px;
+}
+
+.color-option {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.3s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+#details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#details h2 {
+  margin-bottom: 10px;
+}
+
+#details ul {
+  list-style: none;
+  padding: 0;
+}
+
+#details ul li {
+  margin-bottom: 10px;
+}
+
+#details ul li strong {
+  font-weight: bold;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  margin: 0 10px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.color-option.dark blue {
+  background-color: #231a49; /* Azul */
+}
+
+.color-option.black {
+  background-color: #252424; /* Vermelho */
+}
+
+.color-option.gray {
+  background-color: #a1a3a2; /* Verde */
+}
+
+.color-option.white {
+  background-color: #dddbdb; /* Amarelo */
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0; /* Removendo margens padrão do parágrafo */
+}
